@@ -1,0 +1,26 @@
+Started by user [8mha:////4ET04a1eZ9UOX0WPVKyDM4kjI/aTNOXQHC7XZxLibwFZAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9vMzsjMwcAAynud3BAAAA[0mnikhil
+Running as SYSTEM
+Building remotely on [8mha:////4Oud+/6RHV9aX2AYGKu3PXR0NvFldP6B1w0TwUBm6rtmAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLJU3SwAgddqwcYAAAA=[0mslave-j (slave-java) in workspace /home/ec2-user/workspace/java-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/1rn09is402/j-repository.git
+ > git init /home/ec2-user/workspace/java-project # timeout=10
+Fetching upstream changes from https://github.com/1rn09is402/j-repository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.37.1'
+ > git fetch --tags --force --progress -- https://github.com/1rn09is402/j-repository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/1rn09is402/j-repository.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c45663648c1634a7ee4b7372ac3681e533d1dd6c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c45663648c1634a7ee4b7372ac3681e533d1dd6c # timeout=10
+Commit message: "adding java project"
+First time build. Skipping changelog.
+[java-project] $ /bin/sh -xe /tmp/jenkins6226387613149414948.sh
++ 'echosample Java project'
+/tmp/jenkins6226387613149414948.sh: line 2: echosample Java project: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
